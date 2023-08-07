@@ -26,7 +26,10 @@ function ShoppingCartPage() {
   // console.log("THIS IS USERCART", userCart);
   //had to insert Object.values to const userCart because item was not rendering properly, bc of that no need to Object.values in the return at the bottom/html section for userCart
   //wasn't working with Object.values and chaining it with .map
-
+  const comingSoonFeature = (e) => {
+    e.preventDefault();
+    alert("Feature coming soon!");
+  };
   const sum = userCart
     .reduce((total, c) => total + Number(c.Product.price), 0)
     .toFixed(2);
@@ -180,7 +183,12 @@ function ShoppingCartPage() {
                             />
                             <div className="remove-save">
                               <DeleteCartIem cartItemId={item.Product.id} />
-                              <div id="remove-save-button">Save for Later</div>
+                              <div
+                                id="remove-save-button"
+                                onClick={comingSoonFeature}
+                              >
+                                Save for Later
+                              </div>
                             </div>
                           </NavLink>
 
