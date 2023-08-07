@@ -1,0 +1,54 @@
+/* SignupFormModal/SignupForm.css */
+.input-group {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/** Input Box */
+.signup-input {
+    border: solid 1.5px #892CDC;
+    /* border: solid 1.5px black; */
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    width: 86.8%;
+    /* color: black; */
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+/** Placeholder Text */
+.user-label {
+    position: absolute;
+    left: 15px;
+    color: #6d6868;
+    /* color: black; */
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.signup-input:focus, input:valid {
+    outline: none;
+    border: 5px solid #52057B;
+}
+
+.signup-input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: white;
+    padding: 0 .2em;
+    color: #892CDC;
+}
+
+#signup-modal-button {
+    /* width: 78.5%; */
+    width: 98.5%;
+}
+
+#signup-text {
+    text-align: center;
+}
+
+/* random text to push */

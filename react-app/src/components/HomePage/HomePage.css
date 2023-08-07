@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+.home > img {
+    width: 150px;
+    height: 150px
+}
+
+.searchResults {
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+}
+
+.result > img {
+    width: 112px;
+    height: 112px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 2.3s ease; /* Add a smooth transition for scaling */
+
+}
+
+.cap {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    font-weight: 100;
+}
+
+.slideshow {
+    height: 400px;
+    width: 94%;
+    padding-left: 40px;
+
+}
+
+.result > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(72, 71, 71);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+h1, h2, h3 {
+   /* font-family: 'Bebas Neue', sans-serif; */
+   font-family: 'Permanent Marker', cursive;
+
+}
+
+body, p, button {
+    font-family: 'Bebas Neue', sans-serif;
+
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+.car > img {
+    width: 95%;
+    height: 450px
+}
+
+.car {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.slider {
+    margin-bottom: 100px;
+}
+
+.result > a:hover {
+    text-decoration: underline;
+    color: rgb(47, 46, 46);
+}
+
+.result:hover {
+    text-decoration: underline;
+    color: rgb(47, 46, 46);
+    opacity: 0.8;
+}
+
+.result > img:hover {
+    transform: scale(1.14); /* Increase the scale to make the box bigger on hover */
+    box-shadow: 0.5px 0.5px 8px 0.5px rgb(210, 209, 209);
+}
+
+.user > button {
+    background-color: white;
+    border: 0cm;
+    width: 45px;
+    cursor: pointer;
+}

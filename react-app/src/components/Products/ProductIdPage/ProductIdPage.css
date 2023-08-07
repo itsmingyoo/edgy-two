@@ -1,0 +1,180 @@
+.PID-product {
+    display: flex;
+    height: 700px;
+    margin-top: 30px;
+    gap: 8px;
+}
+
+
+.PID-images-div {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    gap: 15px
+}
+
+.PID-all-Images {
+    display: flex;
+    width: 70%;
+
+    gap: 12px;
+}
+
+
+.PID-small-img {
+    border-radius: 10px;
+    /* width: 100px;
+    height: 100px; */
+    /* aspect-ratio: 1/1 */
+}
+
+
+/* TODO MEDIA QUERY SO small screens the images and product info also shrink so the main image doesn't shrink to disappearing */
+.PID-main-image-div {
+    width: 100%;
+    /* height: fit-content; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+.PID-main-image {
+    width: 80%;
+    height: 90%;
+    border-radius: 15px;
+    margin-right: 30px;
+    margin-left: 15px
+    /* object-fit: contain; */
+}
+
+.PID-price {
+    font-size: 4.8vh;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.PID-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.PID-about-buttons-div {
+    width: 38%;
+    margin-left: 10px;
+}
+
+.PID-about-product-div {
+    width: 100%
+}
+
+.PID-P-button {
+    margin-top: 10px;
+}
+
+.PID-count {
+    margin-right: 8px;
+}
+
+
+/* transparent button */
+.PID-Transp-butt {
+    background-color: transparent;
+    border-radius: 28px;
+    border: 1px solid #52057B;
+    display: inline-block;
+    cursor: pointer;
+    color: #52057B;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 10px 15px;
+    text-decoration: none;
+
+}
+
+.PID-Transp-butt:hover {
+    background-color: #892CDC;
+    color: white;
+
+}
+
+.PID-heart {
+    color: white
+}
+
+.PID-Transp-butt:active {
+    position: relative;
+    top: 1px;
+
+}
+
+.PID-heart {
+    color: #52057B;
+}
+
+/* purple button */
+.PID-cartButt {
+    background-color: #52057B;
+    border-radius: 28px;
+    border: 1px solid #52057B;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 10px 15px;
+    text-decoration: none;
+
+}
+
+.PID-cartButt:hover {
+    background-color: #892CDC;
+
+
+}
+
+.PID-cartButt:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.PID-count {
+    font-size: 3vh;
+    ;
+}
+
+
+.PID-stars {
+    color: #52057B
+}
+
+.column-holder {
+    display: flex;
+}
+
+.containerFavs {
+    /* margin-left: 30px */
+}
+
+.containerFavs > #favorite-icon__container {
+    width: 3%;
+    height: 4.5%;
+    box-shadow: 1px 1px 6px 1px rgb(106, 106, 106);
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out; /* Add smooth transition for a gradual effect */
+
+}
+
+.productReview {
+    width: 60%
+}
+
+.containerFavs > #favorite-icon__container:hover {
+    width: 3%;
+    height: 4.5%;
+    box-shadow: 2px 2px 6px 2px rgb(106, 106, 106);
+    transform: scale(1.02); /* Increase the size by 10% (adjust as needed) */
+    background-color: rgb(34, 34, 34);
+    border: 2px solid black;
+}

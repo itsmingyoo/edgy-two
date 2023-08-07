@@ -1,0 +1,59 @@
+/* .RC-stars {
+
+} */
+
+.Rc-card {
+    padding-top: 8px;
+
+}
+
+.Rc-review {
+    font-size: 2.5vh;
+}
+
+
+.Rc-name-date-p {
+
+    padding-bottom: 12px;
+    font-size: 1.7vh;
+}
+
+.Rc-stars-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.Rc-name-date {
+    display: flex;
+    align-items: center;
+    /* height: 10px; */
+    gap: 10px;
+}
+
+
+
+
+
+
+.Rc-hr {
+
+    border: 2px solid rgba(189, 111, 241, 0.281);
+    /* width: 99%; */
+    border-radius: 25px;
+}
+
+
+.footerThree-1 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    padding-top: 20px;
+}

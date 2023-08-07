@@ -1,0 +1,38 @@
+.shopImg {
+    display: flex;
+    gap: 20px
+    /* justify-content: space-between; */
+}
+
+.shopImg > div > img {
+    width: 100%;
+    height: 550px;
+}
+
+.look {
+    margin: 40px;
+    /* max-width: 1400px; */
+    margin-bottom: 100px
+}
+
+.shopName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.look > h2 {
+    font-size: 30px;
+}
+
+.shopImg > div {
+    width: 32%
+}
+
+.shopImg > div > p {
+    height: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+
+}

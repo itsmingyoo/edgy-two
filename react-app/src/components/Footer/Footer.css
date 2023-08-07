@@ -1,0 +1,273 @@
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.foot1, .foot2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.foot1 > p, .foot2 > p{
+    font-size: 13px;
+}
+
+.foot1 > p {
+    font-weight: bold;
+}
+
+.foot1 > img {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.foot1 {
+    margin-left: 20px
+}
+
+.foot2 {
+    margin-right: 30px;
+    gap: 28px
+}
+
+.footer2 {
+    display: flex;
+    background-color: #2b0340;
+    color: white;
+    justify-content: center;
+    height: 330px;
+    width: 100%;
+}
+
+.foots {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+}
+
+.sellFoot, .aboutFoot, .shopFoot, .helpFoot {
+    width: 24%;
+    margin-top: 18px;
+
+}
+
+.sellFoot > p, .aboutFoot > p, .shopFoot > p, .helpFoot > p {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sellFoot > p:hover, .aboutFoot > p:hover, .shopFoot > p:hover, .helpFoot > p:hover {
+    text-decoration: underline;
+}
+
+.sellFoot > h3, .aboutFoot > h3, .shopFoot > h3, .helpFoot > h3 {
+    font-size: 16px;
+}
+
+.background {
+    background-image: url("./edgy-background3.PNG");
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px
+}
+
+.footer3 {
+    padding-top: 50px;
+}
+
+.edgyQ {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.edgyColumns {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 50px;
+    height: 300px
+}
+
+.eC {
+    width: 33%;
+    padding-bottom: 20px;
+}
+
+.endFoot3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer4, .footer5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edgyQ > h1 {
+    font-size: 44px;
+    height: 20px;
+    padding-bottom: 20px;
+}
+
+.eC > h3 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.eC > p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.endFoot3 > button {
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #BC6FF1;
+    font-size: 17px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: transform 0.1s ease; /* Add a smooth transition for scaling */
+
+}
+
+
+.endFoot3 > button:hover {
+    transform: scale(1.01); /* Increase the scale to make the box bigger on hover */
+    box-shadow: 0.5px 0.5px 5px 0.5px rgb(57, 30, 58);
+}
+
+.endFoot3 {
+    margin-bottom: 100px;
+}
+
+.footer4 {
+    margin-bottom: 80px;
+}
+
+.footer5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px
+}
+
+.endFoot3 {
+    font-size: 20px;
+}
+
+.e > input {
+    width: 480px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1.5px solid darkgrey;
+    padding: 3px;
+    padding-left: 15px;
+    font-size: 16px
+}
+
+.footer4 > p {
+    font-size: 18px;
+}
+
+.e > span {
+    position: absolute;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for scaling */
+
+}
+
+.e > span:hover {
+    transition: background-color rgb(157, 137, 165);
+}
+
+.e {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.line {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.app > i {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    color: #2b0340;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 2px; /* Add a smooth transition for scaling */
+
+}
+
+.app:hover {
+    transform: scale(1.01); /* Increasrgb(23, 12, 24)make the box bigger on hover */
+    box-shadow: 0.5px 0.5px 5px 0.5px rgb(57, 30, 58);
+}
+
+.app {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 6px;
+    width: 55%;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+
+}
+
+.iconFoot > i {
+    font-size: 27px;
+}
+
+.iconFoot {
+    display: flex;
+    gap: 25px
+}
+
+.footer5 > p, .footer5 > i {
+    color: white
+
+}
+
+.footer5 {
+    margin-bottom: 10px;
+}
+
+
+.background2 {
+    background-image: url("./edgy-background2-cropped.PNG");
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px
+}

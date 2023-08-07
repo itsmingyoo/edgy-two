@@ -1,0 +1,34 @@
+/* TODO Add site wide styles */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+/* wrap full page with 2 divs as seen below, to make content column  */
+/* this shrinks the columns as you get smaller instead of the content and expands the empty columns as you get on bigger screens */
+/* <div className="column-holder">
+<div className="column"> */
+/* <...page content> */
+/* </div>
+</div> */
+
+
+
+.column-holder {
+    display: flex;
+    /* width: 100%; */
+    margin-left: 40px;
+    margin-right: 40px
+}
+
+.column {
+    width: 100%
+}
+
+
+
+.error-text {
+    color: red
+}
+
+.pStars {
+    color: #52057B
+}

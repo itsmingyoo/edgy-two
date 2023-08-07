@@ -1,0 +1,239 @@
+.addPhotos {
+    display: flex;
+    width: 100%
+}
+
+.imgSide-1 {
+    width: 30%;
+}
+
+.imgSide-2 {
+    width: 68%;
+    margin-top: 7.3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imgSide-2 > label > input {
+    height: 30px;
+    width: 100%
+}
+
+.photoTitle {
+    line-height: 5px;
+}
+
+.productImages {
+    box-shadow: 0.2px 0.2px 2px 0.2px rgb(197, 196, 196);
+    border: 0.8px solid gray;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+
+
+}
+
+#tips {
+    margin-top: 50px;
+}
+
+.create-new-spot-form {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-shadow: 0.2px 0.2px 2px 0.2px rgb(197, 196, 196);
+    border: 0.8px solid gray;
+    z-index: -1;
+
+}
+
+.productDetails {
+    margin-top: 20px;
+    box-shadow: 0.2px 0.2px 2px 0.2px rgb(197, 196, 196);
+    border-left: 0.8px solid gray;
+    border-right: 0.8px solid gray;
+    border-top: 0.8px solid gray;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+
+}
+
+.pDetails {
+    display: flex;
+
+}
+
+.create-new-spot-form > h2 {
+    text-align: center;
+}
+
+
+.productSide-1 {
+    width: 30%;
+    margin-right: 20px;
+    padding-right: 40px;
+    margin-top: 9px;
+}
+
+.productSide-2 {
+    width: 68%;
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.productAbout {
+    display:flex;
+    flex-direction: row;
+}
+
+.productAbout > div {
+    width: 50%;
+}
+
+.productAbout > div > label > input {
+    width: 90%;
+    height: 20px;
+}
+
+.productSide-2 > label > input {
+    height: 35px;
+    width: 95%;
+}
+
+.ta {
+    width: 95.5%;
+    height: 165px;
+
+
+}
+
+.sel {
+    width: 96%;
+    height: 35px;
+    /* margin-bottom: 18px; */
+
+
+}
+
+.productSide-1 > p {
+    font-size: 12px
+}
+
+.imgSide-1 > p, .photoTitle > p {
+    font-size: 12px
+}
+
+.photoTitle > h4 {
+    font-size: 24px
+}
+
+.subForm {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 22px;
+
+}
+
+.errors {
+    color: red;
+    font-size: 12px;
+}
+
+.subForm > button {
+    cursor: pointer;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border: 0px;
+    background-color: #BC6FF1;
+}
+
+#payMe > h2 {
+    line-height: 10px;
+}
+
+#ship > select {
+    height: 30px;
+    cursor: pointer;
+}
+
+.pageColor {
+    background-color: #eae9e8;
+    position: absolute;
+    right: 0%;
+}
+
+.headerTwo {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.headerTwo > p {
+    line-height: 5px;
+
+}
+
+.footerFour {
+    position: absolute;
+    background-color: white;
+    height: 80px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px;
+    width: 100%;
+    border-top: 0.8px solid gray;
+    box-shadow: 0.2px 0.2px 2px 0.2px rgb(197, 196, 196);
+}
+
+#pS-1 {
+    height: 100px;
+}
+
+#pS-2 {
+    height: 100px;
+}
+
+#pS-3 {
+    height: 100px;
+}
+
+#pS-4 {
+    height: 200px;
+}
+
+#pS-1 > h4 {
+    line-height: 1px
+}
+
+#pS-2 > h4 {
+    line-height: 1px;
+}
+
+#pS-3 > h4 {
+    line-height: 1px;
+}
+
+#pS-5 > h4 {
+    line-height: 1px;
+}
+
+.productSide-1 > div > h4 {
+    line-height: 1px;
+}
+
+.imgSide-1 > h4 {
+    line-height: 1px;
+}

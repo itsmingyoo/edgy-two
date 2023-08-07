@@ -1,0 +1,26 @@
+.S-stars-count-div{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+
+/* .cat-Stars{
+    height: 10px;
+} */
+
+.allStars {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    gap: 4px
+}
+
+.S-stars-count-div > i {
+    font-size: 15px;
+}
+
+.allStars > p {
+    font-size: 13.5px;
+    color: gray;
+}

@@ -1,0 +1,174 @@
+.userProduct > img {
+    width: 90%;
+    height: 170px;
+    margin-top: 5px
+}
+
+.allProductsPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.userProducts {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 20px;
+    width: 80%;
+}
+
+.userProduct {
+    height: 340px;
+    border: 0.8px solid gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    line-height: 3px;
+    text-overflow: ellipsis;
+    align-items: center;
+    box-shadow: 0.2px 0.2px 2px 0.2px rgb(197, 196, 196);
+}
+
+.userProduct > p, .product-p {
+   font-size: 12px;
+   text-overflow: ellipsis;
+   width: 90%;
+}
+
+#user-favorites__container {
+    margin-bottom: 20px;
+
+}
+
+.userProduct > h4 {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    width: 90%;
+    padding-top: 2px;
+    /* margin-left: 5px; */
+ }
+
+.productPage {
+    display: flex;
+    gap: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 10px;
+
+}
+
+.qEdit {
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sortingProducts {
+    width: 20%;
+}
+
+.product-p {
+    display: flex;
+}
+
+.allProdT > button {
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.allProdT > input {
+    width: 400px;
+}
+
+.allProdT {
+    display: flex;
+    gap: 10px
+}
+
+#productSort {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.deleteProduct {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border-top: 0.8px solid gray;
+    align-items: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 100%
+}
+
+.deleteProductButton {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+
+.deleteProductButton > button {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #892CDC;
+    color: white;
+    border: 2px solid black;
+}
+
+.deleteProduct2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deleteTitle {
+    line-height: 15px;
+    margin-top: 25px;
+}
+
+.delProduct {
+    cursor: pointer;
+}
+
+.footerThree-1 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.footerThree-1 > button {
+    cursor: pointer;
+}
+
+#Usd {
+    margin-right: 30px;
+}
+
+.footerThree-2 {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px
+}
